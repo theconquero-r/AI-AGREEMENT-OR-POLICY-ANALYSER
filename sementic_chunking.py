@@ -1,13 +1,13 @@
 import torch.nn.functional as F
 import os
-os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
-os.environ["HF_HUB_OFFLINE"] = "1"
+# os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+# os.environ["HF_HUB_OFFLINE"] = "1"
 import torch
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
-import logging
-logging.getLogger("transformers").setLevel(logging.ERROR)
+# import logging
+# logging.getLogger("transformers").setLevel(logging.ERROR)
 
 CLAUSE_KEYWORDS = {
 
