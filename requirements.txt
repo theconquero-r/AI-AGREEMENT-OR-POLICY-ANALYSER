@@ -1,0 +1,9 @@
+streamlit
+sentence-transformers
+faiss-cpu
+torch
+PyPDF2
+python-docx
+ollama
+numpy
+scikit-learn
