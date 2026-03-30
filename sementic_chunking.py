@@ -125,7 +125,7 @@ def split_into_sentences(text):
     return sentences
 
 # Load model once
-model = SentenceTransformer('all-MiniLM-L6-v2',device='cuda')
+model = SentenceTransformer('all-MiniLM-L6-v2',device="cuda" if torch.cuda.is_available() else "cpu")
 
 
 def get_embeddings(sentences):
