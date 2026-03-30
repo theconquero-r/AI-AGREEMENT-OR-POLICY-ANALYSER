@@ -3,7 +3,7 @@
 from pyexpat.errors import messages
 from urllib import response
 
-from prompt_toolkit import prompt
+# from prompt_toolkit import prompt
 
 from ollama import Client
 import os
